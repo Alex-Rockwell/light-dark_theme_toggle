@@ -89,24 +89,24 @@ body.dark {
   height: 4rem;
   width: 4rem;
   fill: var(--accent-color);
-  transition: opacity fill 1s;
+  transition: all 1s;
 }
 
 .sun {
   top: 5%;
-  /* opacity: 1; */
+  opacity: 1;
 }
 
 .dark .sun {
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .moon {
   bottom: 5%;
-  /* opacity: 0; */
+  opacity: 0;
   transform: rotate(180deg);
 }
 
 .dark .moon {
-  /* opacity: 1; */
+  opacity: 1;
 }
